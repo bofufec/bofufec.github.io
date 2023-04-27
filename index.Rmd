@@ -1,7 +1,7 @@
 ---
 title: "Online tools"
 description: |
-  We provide the waste rock and areas comparison and EQuals compilation tools. More applications (flows comparison, Python GUI control for GoldSim) and tutorials are coming!
+  We provide the waste rock & areas comparison and EQuals compilation tools. Now, the website is still in buidling. More data tools (e.g., flows comparison, Python GUI control for GoldSim) and related tutorials are coming!
 site: distill::distill_website
 ---
 
