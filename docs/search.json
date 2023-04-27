@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2023-04-27T00:15:52-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "My Website",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\r\nWaste Rock Input File Comparison Tool (version 1.1)\r\nArea comparison tool (version 1)\r\nEQuals compilation tool (version 2)\r\n\r\n\r\n\r\n",
+      "last_modified": "2023-04-27T00:15:52-04:00"
+    }
+  ],
+  "collections": []
+}
