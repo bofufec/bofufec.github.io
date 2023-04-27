@@ -1,7 +1,7 @@
 ---
-title: "My Website"
+title: "Online tools"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  We provide the waste rock and areas comparison and EQuals compilation tools. More applications (flows comparison, Python GUI control for GoldSim) and tutorials are coming!
 site: distill::distill_website
 ---
 

@@ -1,7 +1,7 @@
 name: "bofufec.github.io"
-title: "My Website"
+title: "Water Stewarship Team Tool Hub"
 description: |
-  My Website
+  The portals of data tool developed by Water Stewarship Teams 
 output_dir: "docs"
 navbar:
   right:

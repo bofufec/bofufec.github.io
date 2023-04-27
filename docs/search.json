@@ -3,18 +3,18 @@
     {
       "path": "about.html",
       "title": "About this site",
-      "description": "Some additional details about the website",
+      "description": "This website provides the link and tutorial about the data tools developed by WST.  ",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-04-27T00:15:52-04:00"
+      "last_modified": "2023-04-27T00:34:34-04:00"
     },
     {
       "path": "index.html",
-      "title": "My Website",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "title": "Online tools",
+      "description": "We provide the waste rock and areas comparison and EQuals compilation tools. More applications (flows comparison, Python GUI control for GoldSim) and tutorials are coming!\n",
       "author": [],
       "contents": "\r\nWaste Rock Input File Comparison Tool (version 1.1)\r\nArea comparison tool (version 1)\r\nEQuals compilation tool (version 2)\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-04-27T00:15:52-04:00"
+      "last_modified": "2023-04-27T00:34:36-04:00"
     }
   ],
   "collections": []

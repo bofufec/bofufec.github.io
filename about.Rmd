@@ -1,7 +1,7 @@
 ---
 title: "About this site"
 description: |
-  Some additional details about the website
+  This website provides the link and tutorial about the data tools developed by WST.  
 ---
 
 ```{r setup, include=FALSE}
