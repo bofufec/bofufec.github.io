@@ -16,7 +16,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-
 ### [Waste Rock Input File Comparison Tool (version 1.1)](https://boff-5045.shinyapps.io/WR_percentage/)
 
 ### [Area comparison tool (version 1)](https://boff-5045.shinyapps.io/Area_checking/)

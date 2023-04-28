@@ -9,4 +9,10 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Tutorials"
+      menu:
+        - text: "EQuls compilation tool"
+          href: equals.html
+        - text: "waste rock compatison"
+          href: wr.html
 output: distill::distill_article

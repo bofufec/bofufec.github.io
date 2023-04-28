@@ -6,7 +6,21 @@
       "description": "The website provides the applications' links and tutorials of the data tools developed by Water Stewarship Team (WST).    ",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-04-27T00:40:12-04:00"
+      "last_modified": "2023-04-28T12:40:30-04:00"
+    },
+    {
+      "path": "equals.html",
+      "title": "Tutorial series--EQuals",
+      "description": "Equals tool tutorials.",
+      "author": [
+        {
+          "name": "Bofu Li",
+          "url": {}
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\nPre-treatment\r\nEQuals compilation tool is designed for .xlsx file which is less than 50 MB. If you have a bigger data set, please reach out to me directly.\r\nStep 1. Upload the files\r\nPlease the Browse section to upload your EQuals.xlsx file.\r\nStep 2. Select the fraction\r\nFraction value is used to compile the repeated samples at the same time step which have both “above detection”(i.e., above detection limit) and “non-detection”(i.e., lower than detection limit). The equation is as below:\r\n\\[\r\nY_{final~value}=X_{above~dection}+\\alpha_{fraction}×X_{non~detction}\r\n\\]\r\nStep 3. Select SYS_LOC_CODE (nodes)\r\nThe option of nodes would be auto-generated after uploading your EQuals file. You can select multiple nodes if you need process more than one nodes.\r\nStep 4. Select chemicals (constituents)\r\nThe option of constituents would be auto-generated after uploading your EQuals file. The tool processed the constituents which are in our list. In other words, flows, temperature and etc. would be removed in the option.\r\nStep 5. Select time step\r\nThe tool provides the option to convert the daily average to weekly, monthly and yearly average. If you need some customized statistical methods, please reach out to me.\r\nStep 6. Process the data\r\nAfter selecting all above sections, press the “Process” button to start processin your data.\r\nStep 7. Download the dataset\r\nThis tool allows to download the processed data. If you press the button, you may need to wait a couple of minutes to get the new windows to select download location in your PC, because the backstage is busy in processing the data.\r\nStep 8. Visualize the processed data\r\nAfter processing the data, a new section would appear which allows users to visulize the process data in this tool. Now, the tool supports ONE node with mutiple consituents.\r\n\r\n\r\n\r\n",
+      "last_modified": "2023-04-28T12:40:34-04:00"
     },
     {
       "path": "index.html",
@@ -14,7 +28,7 @@
       "description": "We provide the waste rock & areas comparison and EQuals compilation tools. Now, the website is still in buidling. More data tools (e.g., flows comparison, Python GUI control for GoldSim) and related tutorials are coming!\n",
       "author": [],
       "contents": "\r\nWaste Rock Input File Comparison Tool (version 1.1)\r\nArea comparison tool (version 1)\r\nEQuals compilation tool (version 2)\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-04-27T00:40:14-04:00"
+      "last_modified": "2023-04-28T12:40:34-04:00"
     }
   ],
   "collections": []

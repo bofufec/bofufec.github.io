@@ -1,0 +1,68 @@
+---
+title: "Tutorial series--EQuals"
+author:
+- name: Bofu Li
+  affiliation: "FEC-Water Stewarship Team"
+date: "`r Sys.Date()`"
+output: distill::distill_article
+site: distill::distill_website
+description: |
+  Equals tool tutorials.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Pre-treatment
+
+EQuals compilation tool is designed for .xlsx file which is less than 50 MB. If you have a bigger data set, please reach out to me directly.
+
+## Step 1. Upload the files
+
+Please the Browse section to upload your EQuals.xlsx file.
+
+## Step 2. Select the fraction
+
+Fraction value is used to compile the repeated samples at the same time step which have both "above detection"(i.e., above detection limit) and "non-detection"(i.e., lower than detection limit). The equation is as below:
+
+$$
+Y_{final~value}=X_{above~dection}+\alpha_{fraction}×X_{non~detction}
+$$
+
+## Step 3. Select SYS_LOC_CODE (nodes)
+
+The option of nodes would be auto-generated after uploading your EQuals file. You can select multiple nodes if you need process more than one nodes. 
+
+## Step 4. Select chemicals (constituents)
+
+The option of constituents would be auto-generated after uploading your EQuals file. The tool processed the constituents which are in our list. In other words, flows, temperature and etc. would be removed in the option. 
+
+## Step 5. Select time step
+
+The tool provides the option to convert the daily average to weekly, monthly and yearly average. If you need some customized statistical methods, please reach out to me. 
+
+## Step 6. Process the data
+
+After selecting all above sections, press the "Process" button to start processin your data. 
+
+## Step 7. Download the dataset
+
+This tool allows to download the processed data. If you press the button, you may need to wait a couple of minutes to get the new windows to select download location in your PC, because the backstage is busy in processing the data. 
+
+## Step 8. Visualize the processed data
+
+After processing the data, a new section would appear which allows users to visulize the process data in this tool. Now, the tool supports ONE node with mutiple consituents. 
+
+
+
+
+
+
+
+
+
+
+
+
+
