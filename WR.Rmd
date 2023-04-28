@@ -1,0 +1,52 @@
+---
+title: "Tutorial series--Waste Rock Comparison"
+author:
+- name: Bofu Li
+  affiliation: "FEC-Water Stewarship Team"
+date: "`r Sys.Date()`"
+output: distill::distill_article
+site: distill::distill_website
+description: |
+  Waste rock comparison tool tutorials.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Highlights
+
+Waste rock (WR) comparison tool can auto detect the ranges of each waste rock categories (e.g., cumulative, yearly and etc.). 
+
+## Step 1. Upload the base- and application-case waste rock
+Upload the WR input files to base case and application case
+
+## Step 2. Select watershed
+
+Please selet one of four watersheds
+
+## Step 3. Enter categories
+
+Please enter the categories of WR. It is noted that, users need to check if there is select categories in BOTH WR input files. If one input file does not contain the selected category, the tool would return an error. 
+
+## Step 4. Enter percentage
+
+The tool use percentage to tell whether there is difference between the base case and application case. It is noted that, if WR in case was zero while application values were non-zero, the percentage would be 100%. The equation of percentage is shown as below: 
+
+$$
+                 WR_{Application~base}-WR_{Base~case}\over WR_{Base~case}
+$$
+
+## Step 5. Enter column range and row of RWQM ID
+Please enter the range of headers in WR input file. For example, in FRO the range of headers in Excel sheet is A7:AY7. So, enter "A:AY"to column range and "7" to row range. 
+
+## Step 6. Process & download data and visualization
+
+Press "Process Data". After processing the tables, users can download the results as a .CSV file. A new section would appear at the sidebar, users can select one categories to visualize the processed data. For cumulative WR, the tool provide area plot while rest of plot are lollipop plots. 
+
+
+
+
+
+
+
