@@ -14,8 +14,6 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Highlights
-
 Waste rock (WR) comparison tool can auto detect the ranges of each waste rock categories (e.g., cumulative, yearly and etc.). 
 
 ## Step 1. Upload the base- and application-case waste rock
@@ -23,7 +21,7 @@ Upload the WR input files to base case and application case
 
 ## Step 2. Select watershed
 
-Please selet one of four watersheds
+Please select one of four watersheds
 
 ## Step 3. Enter categories
 

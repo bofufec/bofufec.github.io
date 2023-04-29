@@ -1,0 +1,37 @@
+---
+title: "Tutorial series--Area Comparison"
+author:
+- name: Bofu Li
+  affiliation: "FEC-Water Stewarship Team"
+date: "`r Sys.Date()`"
+output: distill::distill_article
+site: distill::distill_website
+description: |
+  Area comparison tool tutorials.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+Area comparison tool can detect the difference of area in base case and application base. 
+## Step 1. Select the CPUs
+The tool is able to use parallel running (multiple cores) to speed up the calculation. Usually, one core would take charge of the calculation in one watershed. Therefore, the recommend CPUs number is equal to the number of selected watersheds.
+
+## Step 2. Upload the base- and application-case waste rock
+Upload the area input files to base case and application case
+
+## Step 3. Select watersheds
+
+Please select watersheds
+
+## Step 4. Enter comparison tolerance
+
+Above comparison tolerance (i.e., abs|base case-application case|) would be regarded as difference. 
+
+
+
+
+
+

@@ -14,5 +14,7 @@ navbar:
         - text: "EQuls compilation tool"
           href: equals.html
         - text: "Waste rock comparison tool"
-          href: wr.html
+          href: WR.html
+        - text: "Area comparison tool"
+          href: ar.html
 output: distill::distill_article
