@@ -88,29 +88,33 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Water Stewarship Team Tool Hub: Online tools</title>
+  <title>Water Stewarship Team Tool Hub: Tutorial series--flow Comparison</title>
 
-  <meta property="description" itemprop="description" content="We provide the waste rock &amp; areas comparison and EQuals compilation tools. Now, the website is still in buidling. More data tools (e.g., flows comparison, Python GUI control for GoldSim) and related tutorials are coming!"/>
+  <meta property="description" itemprop="description" content="Flow comparison tool tutorials."/>
 
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2023-04-29"/>
+  <meta property="article:created" itemprop="dateCreated" content="2023-04-29"/>
+  <meta name="article:author" content="Bofu Li"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Water Stewarship Team Tool Hub: Online tools"/>
+  <meta property="og:title" content="Water Stewarship Team Tool Hub: Tutorial series--flow Comparison"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="We provide the waste rock &amp; areas comparison and EQuals compilation tools. Now, the website is still in buidling. More data tools (e.g., flows comparison, Python GUI control for GoldSim) and related tutorials are coming!"/>
+  <meta property="og:description" content="Flow comparison tool tutorials."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Water Stewarship Team Tool Hub"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Water Stewarship Team Tool Hub: Online tools"/>
-  <meta property="twitter:description" content="We provide the waste rock &amp; areas comparison and EQuals compilation tools. Now, the website is still in buidling. More data tools (e.g., flows comparison, Python GUI control for GoldSim) and related tutorials are coming!"/>
+  <meta property="twitter:title" content="Water Stewarship Team Tool Hub: Tutorial series--flow Comparison"/>
+  <meta property="twitter:description" content="Flow comparison tool tutorials."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["Online tools"]},{"type":"character","attributes":{},"value":["We provide the waste rock & areas comparison and EQuals compilation tools. Now, the website is still in buidling. More data tools (e.g., flows comparison, Python GUI control for GoldSim) and related tutorials are coming!\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","output","site","description"]}},"value":[{"type":"character","attributes":{},"value":["Tutorial series--flow Comparison"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["Bofu Li"]},{"type":"character","attributes":{},"value":["FEC-Water Stewarship Team"]}]}]},{"type":"character","attributes":{},"value":["2023-04-29"]},{"type":"character","attributes":{},"value":["distill::distill_article"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["Flow comparison tool tutorials."]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2094,7 +2098,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Online tools","description":"We provide the waste rock & areas comparison and EQuals compilation tools. Now, the website is still in buidling. More data tools (e.g., flows comparison, Python GUI control for GoldSim) and related tutorials are coming!","authors":[]}
+{"title":"Tutorial series--flow Comparison","description":"Flow comparison tool tutorials.","authors":[{"author":"Bofu Li","authorURL":"#","affiliation":"FEC-Water Stewarship Team","affiliationURL":"#","orcidID":""}],"publishedDate":"2023-04-29T00:00:00.000-04:00","citationText":"Li, 2023"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2129,19 +2133,30 @@ Tutorials
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Online tools</h1>
+<h1>Tutorial series–flow Comparison</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>We provide the waste rock &amp; areas comparison and EQuals compilation tools. Now, the website is still in buidling. More data tools (e.g., flows comparison, Python GUI control for GoldSim) and related tutorials are coming!</p></p>
+<p><p>Flow comparison tool tutorials.</p></p>
 </div>
 
+<div class="d-byline">
+  Bofu Li  (FEC-Water Stewarship Team)
+  
+<br/>2023-04-29
+</div>
 
 <div class="d-article">
-<p>If you are a new user, please read the tutorial articles by clicking top right tab of tutorials.</p>
-<h3 id="equals-compilation-tool-version-2"><a href="https://boff-5045.shinyapps.io/EQuls_tool_version2/">EQuals compilation tool (version 2)</a></h3>
-<h3 id="waste-rock-input-file-comparison-tool-version-1.1"><a href="https://boff-5045.shinyapps.io/WR_percentage/">Waste Rock Input File Comparison Tool (version 1.1)</a></h3>
-<h3 id="area-comparison-tool-version-1"><a href="https://boff-5045.shinyapps.io/Area_checking/">Area comparison tool (version 1)</a></h3>
-<h3 id="flow-comparison-tool-alpha"><a href="https://boff-5045.shinyapps.io/Flow_checking/">Flow comparison tool (alpha)</a></h3>
+<p>Please edit the flow input before uploading to the tool. Due to the limited capacity in server, the tool only supports 1 realization. If you need more powerful version, please reach out to me.</p>
+<h2 id="step-1.-pre-treatment">Step 1. Pre-treatment</h2>
+<p>Only keep one sheet in flow input files. For example, only keep “R01” in both base case and application case.</p>
+<h2 id="step-2.-upload-the-base--and-application-case-waste-rock">Step 2. Upload the base- and application-case waste rock</h2>
+<p>Upload the flow input files to base case and application case</p>
+<h2 id="step-3.-enter-realization-i">Step 3. Enter realization i</h2>
+<p>If you keep “R01” in the input files, please enter 1. If the i is inconsistent with the input file, the tool can’t return the results.</p>
+<h2 id="step-4.-enter-range-of-data">Step 4. Enter range of data</h2>
+<p>Enter the range of data in both Excel sheet.</p>
+<h2 id="step-5.-enter-the-tolerance">Step 5. Enter the tolerance</h2>
+<p>Please enter the comparison tolerance.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

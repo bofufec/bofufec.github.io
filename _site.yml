@@ -17,4 +17,7 @@ navbar:
           href: WR.html
         - text: "Area comparison tool"
           href: ar.html
+        - text: "Flow comparison tool"
+          href: fc.html
+          
 output: distill::distill_article
