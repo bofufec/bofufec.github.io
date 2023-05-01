@@ -14,26 +14,27 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Please edit the flow input before uploading to the tool. Due to the limited capacity in server, the tool only supports 1 realization. If you need more powerful version, please reach out to me. 
+Please edit the flow input before uploading it to the tool. Due to the limited capacity of the server, the tool only supports one realization. If you need a more powerful version, please reach out to me.
 
-## Step 1. Pre-treatment
+## Step 1: Pre-treatment
 
-Only keep one sheet in flow input files. For example, only keep "R01" in both base case and application case. 
+Keep only one sheet in the flow input files. For example, only keep "R01" in both the base case and application case.
 
-## Step 2. Upload the base- and application-case waste rock
-Upload the flow input files to base case and application case
+## Step 2: Upload the Base- and Application-Case Flow Input
 
-## Step 3. Enter realization i
+Upload the flow input files for the base case and application case.
 
-If you keep "R01" in the input files, please enter 1. If the i is inconsistent with the input file, the tool can't return the results. 
+## Step 3: Enter Realization i
 
-## Step 4. Enter range of data
+If you kept "R01" in the input files, please enter 1. If the value of i is inconsistent with the input file, the tool cannot return the results.
 
-Enter the range of data in both Excel sheet. 
+## Step 4: Enter Range of Data
 
-## Step 5. Enter the tolerance
+Enter the range of data in both Excel sheets.
 
-Please enter the comparison tolerance. 
+## Step 5: Enter Tolerance
+
+Please enter the comparison tolerance.
 
 
 

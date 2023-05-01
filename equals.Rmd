@@ -16,43 +16,44 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Pre-treatment
 
-EQuals compilation tool is designed for .xlsx file which is less than 50 MB. If you have a bigger data set, please reach out to me directly.
+The EQuals compilation tool is designed for .xlsx files that are less than 50 MB. If you have a larger dataset, please contact me directly.
 
-## Step 1. Upload the files
+## Step 1: Upload the Files
 
-Please the Browse section to upload your EQuals.xlsx file.
+In the "Browse" section, upload your EQuals.xlsx file.
 
-## Step 2. Select the fraction
+## Step 2: Select the Fraction
 
-Fraction value is used to compile the repeated samples at the same time step which have both "above detection"(i.e., above detection limit) and "non-detection"(i.e., lower than detection limit). The equation is as below:
+The fraction value is used to compile repeated samples at the same time step that have both "above detection" (i.e., above the detection limit) and "non-detection" (i.e., lower than the detection limit) results. The equation is as follows:
 
 $$
-Y_{final~value}=X_{above~dection}+\alpha_{fraction}×X_{non~detction}
+Y_{final~value}=X_{above~detection}+\alpha_{fraction}×X_{non~detection}
 $$
 
-## Step 3. Select SYS_LOC_CODE (nodes)
+## Step 3: Select SYS_LOC_CODE (Nodes)
 
-The option of nodes would be auto-generated after uploading your EQuals file. You can select multiple nodes if you need process more than one nodes. 
+The option for nodes will be auto-generated after uploading your EQuals file. You can select multiple nodes if you need to process more than one node.
 
-## Step 4. Select chemicals (constituents)
+## Step 4: Select Chemicals (Constituents)
 
-The option of constituents would be auto-generated after uploading your EQuals file. The tool processed the constituents which are in our list. In other words, flows, temperature and etc. would be removed in the option. 
+The option for constituents will be auto-generated after uploading your EQuals file. The tool will process the constituents that are in our list. Flows, temperature, etc., will be removed from the options.
 
-## Step 5. Select time step
+## Step 5: Select Time Step
 
-The tool provides the option to convert the daily average to weekly, monthly and yearly average. If you need some customized statistical methods, please reach out to me. 
+The tool provides the option to convert the daily average to weekly, monthly, and yearly averages. If you require custom statistical methods, please contact me.
 
-## Step 6. Process the data
+## Step 6: Process the Data
 
-After selecting all above sections, press the "Process" button to start processin your data. 
+After selecting all the sections above, press the "Process" button to start processing your data.
 
-## Step 7. Download the dataset
+## Step 7: Download the Dataset
 
-This tool allows to download the processed data. If you press the button, you may need to wait a couple of minutes to get the new windows to select download location in your PC, because the backstage is busy in processing the data. 
+This tool allows you to download the processed data. If you press the button, please wait a few minutes for a new window to appear, allowing you to select the download location on your PC, as the backstage is busy processing the data.
 
-## Step 8. Visualize the processed data
+## Step 8: Visualize the Processed Data
 
-After processing the data, a new section would appear which allows users to visulize the process data in this tool. Now, the tool supports ONE node with mutiple consituents. 
+After processing the data, a new section will appear that allows users to visualize the processed data in the tool. Currently, the tool supports one node with multiple constituents.
+
 
 
 

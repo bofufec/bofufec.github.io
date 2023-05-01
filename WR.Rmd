@@ -14,33 +14,38 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Waste rock (WR) comparison tool can auto detect the ranges of each waste rock categories (e.g., cumulative, yearly and etc.). 
+## Pre-treatment
 
-## Step 1. Upload the base- and application-case waste rock
-Upload the WR input files to base case and application case
+The Waste Rock (WR) comparison tool can auto-detect the ranges of each waste rock category (e.g., cumulative, yearly, etc.).
 
-## Step 2. Select watershed
+## Step 1: Upload the Base- and Application-Case Waste Rock
 
-Please select one of four watersheds
+Upload the Waste Rock input files for the base case and application case.
 
-## Step 3. Enter categories
+## Step 2: Select Watershed
 
-Please enter the categories of WR. It is noted that, users need to check if there is select categories in BOTH WR input files. If one input file does not contain the selected category, the tool would return an error. 
+Please select one of the four watersheds.
 
-## Step 4. Enter percentage
+## Step 3: Enter Categories
 
-The tool use percentage to tell whether there is difference between the base case and application case. It is noted that, if WR in case was zero while application values were non-zero, the percentage would be 100%. The equation of percentage is shown as below: 
+Please enter the categories of Waste Rock. Note that users must check if there are selected categories in BOTH Waste Rock input files. If one input file does not contain the selected category, the tool will return an error.
+
+## Step 4: Enter Percentage
+
+The tool uses percentage to determine whether there is a difference between the base case and application case. Note that if Waste Rock in the application case was zero while the base case values were non-zero, the percentage would be 100%. The percentage equation is as follows:
 
 $$
-                 WR_{Application~base}-WR_{Base~case}\over WR_{Base~case}
+                 \frac{WR_{Application~base}-WR_{Base~case}}{WR_{Base~case}}
 $$
 
-## Step 5. Enter column range and row of RWQM ID
-Please enter the range of headers in WR input file. For example, in FRO the range of headers in Excel sheet is A7:AY7. So, enter "A:AY"to column range and "7" to row range. 
+## Step 5: Enter Column Range and Row of RWQM ID
 
-## Step 6. Process & download data and visualization
+Please enter the range of headers in the Waste Rock input file. For example, in FRO, the range of headers in the Excel sheet is A7:AY7. So, enter "A:AY" for the column range and "7" for the row range.
 
-Press "Process Data". After processing the tables, users can download the results as a .CSV file. A new section would appear at the sidebar, users can select one categories to visualize the processed data. For cumulative WR, the tool provide area plot while rest of plot are lollipop plots. 
+## Step 6: Process and Download Data and Visualization
+
+Press the "Process Data" button. After processing the tables, users can download the results as a .CSV file. A new section will appear in the sidebar, where users can select one category to visualize the processed data. For cumulative Waste Rock, the tool provides an area plot, while the rest of the plots are lollipop plots.
+
 
 
 

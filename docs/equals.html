@@ -94,8 +94,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2023-04-29"/>
-  <meta property="article:created" itemprop="dateCreated" content="2023-04-29"/>
+  <meta property="article:published" itemprop="datePublished" content="2023-05-01"/>
+  <meta property="article:created" itemprop="dateCreated" content="2023-05-01"/>
   <meta name="article:author" content="Bofu Li"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
@@ -114,7 +114,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","output","site","description"]}},"value":[{"type":"character","attributes":{},"value":["Tutorial series--EQuals"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["Bofu Li"]},{"type":"character","attributes":{},"value":["FEC-Water Stewarship Team"]}]}]},{"type":"character","attributes":{},"value":["2023-04-29"]},{"type":"character","attributes":{},"value":["distill::distill_article"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["Equals tool tutorials."]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","output","site","description"]}},"value":[{"type":"character","attributes":{},"value":["Tutorial series--EQuals"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["Bofu Li"]},{"type":"character","attributes":{},"value":["FEC-Water Stewarship Team"]}]}]},{"type":"character","attributes":{},"value":["2023-05-01"]},{"type":"character","attributes":{},"value":["distill::distill_article"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["Equals tool tutorials."]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2098,7 +2098,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Tutorial series--EQuals","description":"Equals tool tutorials.","authors":[{"author":"Bofu Li","authorURL":"#","affiliation":"FEC-Water Stewarship Team","affiliationURL":"#","orcidID":""}],"publishedDate":"2023-04-29T00:00:00.000-04:00","citationText":"Li, 2023"}
+{"title":"Tutorial series--EQuals","description":"Equals tool tutorials.","authors":[{"author":"Bofu Li","authorURL":"#","affiliation":"FEC-Water Stewarship Team","affiliationURL":"#","orcidID":""}],"publishedDate":"2023-05-01T00:00:00.000-04:00","citationText":"Li, 2023"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2142,31 +2142,31 @@ Tutorials
 <div class="d-byline">
   Bofu Li  (FEC-Water Stewarship Team)
   
-<br/>2023-04-29
+<br/>2023-05-01
 </div>
 
 <div class="d-article">
 <h2 id="pre-treatment">Pre-treatment</h2>
-<p>EQuals compilation tool is designed for .xlsx file which is less than 50 MB. If you have a bigger data set, please reach out to me directly.</p>
-<h2 id="step-1.-upload-the-files">Step 1. Upload the files</h2>
-<p>Please the Browse section to upload your EQuals.xlsx file.</p>
-<h2 id="step-2.-select-the-fraction">Step 2. Select the fraction</h2>
-<p>Fraction value is used to compile the repeated samples at the same time step which have both “above detection”(i.e., above detection limit) and “non-detection”(i.e., lower than detection limit). The equation is as below:</p>
+<p>The EQuals compilation tool is designed for .xlsx files that are less than 50 MB. If you have a larger dataset, please contact me directly.</p>
+<h2 id="step-1-upload-the-files">Step 1: Upload the Files</h2>
+<p>In the “Browse” section, upload your EQuals.xlsx file.</p>
+<h2 id="step-2-select-the-fraction">Step 2: Select the Fraction</h2>
+<p>The fraction value is used to compile repeated samples at the same time step that have both “above detection” (i.e., above the detection limit) and “non-detection” (i.e., lower than the detection limit) results. The equation is as follows:</p>
 <p><span class="math display">\[
-Y_{final~value}=X_{above~dection}+\alpha_{fraction}×X_{non~detction}
+Y_{final~value}=X_{above~detection}+\alpha_{fraction}×X_{non~detection}
 \]</span></p>
-<h2 id="step-3.-select-sys_loc_code-nodes">Step 3. Select SYS_LOC_CODE (nodes)</h2>
-<p>The option of nodes would be auto-generated after uploading your EQuals file. You can select multiple nodes if you need process more than one nodes.</p>
-<h2 id="step-4.-select-chemicals-constituents">Step 4. Select chemicals (constituents)</h2>
-<p>The option of constituents would be auto-generated after uploading your EQuals file. The tool processed the constituents which are in our list. In other words, flows, temperature and etc. would be removed in the option.</p>
-<h2 id="step-5.-select-time-step">Step 5. Select time step</h2>
-<p>The tool provides the option to convert the daily average to weekly, monthly and yearly average. If you need some customized statistical methods, please reach out to me.</p>
-<h2 id="step-6.-process-the-data">Step 6. Process the data</h2>
-<p>After selecting all above sections, press the “Process” button to start processin your data.</p>
-<h2 id="step-7.-download-the-dataset">Step 7. Download the dataset</h2>
-<p>This tool allows to download the processed data. If you press the button, you may need to wait a couple of minutes to get the new windows to select download location in your PC, because the backstage is busy in processing the data.</p>
-<h2 id="step-8.-visualize-the-processed-data">Step 8. Visualize the processed data</h2>
-<p>After processing the data, a new section would appear which allows users to visulize the process data in this tool. Now, the tool supports ONE node with mutiple consituents.</p>
+<h2 id="step-3-select-sys_loc_code-nodes">Step 3: Select SYS_LOC_CODE (Nodes)</h2>
+<p>The option for nodes will be auto-generated after uploading your EQuals file. You can select multiple nodes if you need to process more than one node.</p>
+<h2 id="step-4-select-chemicals-constituents">Step 4: Select Chemicals (Constituents)</h2>
+<p>The option for constituents will be auto-generated after uploading your EQuals file. The tool will process the constituents that are in our list. Flows, temperature, etc., will be removed from the options.</p>
+<h2 id="step-5-select-time-step">Step 5: Select Time Step</h2>
+<p>The tool provides the option to convert the daily average to weekly, monthly, and yearly averages. If you require custom statistical methods, please contact me.</p>
+<h2 id="step-6-process-the-data">Step 6: Process the Data</h2>
+<p>After selecting all the sections above, press the “Process” button to start processing your data.</p>
+<h2 id="step-7-download-the-dataset">Step 7: Download the Dataset</h2>
+<p>This tool allows you to download the processed data. If you press the button, please wait a few minutes for a new window to appear, allowing you to select the download location on your PC, as the backstage is busy processing the data.</p>
+<h2 id="step-8-visualize-the-processed-data">Step 8: Visualize the Processed Data</h2>
+<p>After processing the data, a new section will appear that allows users to visualize the processed data in the tool. Currently, the tool supports one node with multiple constituents.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

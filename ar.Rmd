@@ -14,22 +14,37 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## Pre-treatment
 
-Area comparison tool can detect the difference of area in base case and application base. 
+The Waste Rock (WR) comparison tool can automatically detect the ranges of each waste rock category (e.g., cumulative, yearly, etc.).
 
-## Step 1. Select the CPUs
-The tool is able to use parallel running (multiple cores) to speed up the calculation. Usually, one core would take charge of the calculation in one watershed. Therefore, the recommend CPUs number is equal to the number of selected watersheds.
+## Step 1: Upload the Base- and Application-Case Waste Rock
 
-## Step 2. Upload the base- and application-case waste rock
-Upload the area input files to base case and application case
+Upload the Waste Rock input files for the base case and application case.
 
-## Step 3. Select watersheds
+## Step 2: Select Watershed
 
-Please select watersheds
+Select one of the four watersheds.
 
-## Step 4. Enter comparison tolerance
+## Step 3: Enter Categories
 
-Above comparison tolerance (i.e., abs|base case-application case|) would be regarded as difference. 
+Enter the categories of Waste Rock. Note that users must ensure that the selected categories exist in BOTH Waste Rock input files. If one input file does not contain the selected category, the tool will return an error.
+
+## Step 4: Enter Percentage
+
+The tool uses percentage to determine whether there is a difference between the base case and application case. If the Waste Rock in the application case was zero while the base case values were non-zero, the percentage would be 100%. The percentage equation is as follows:
+
+$$
+                 \frac{WR_{Application~base}-WR_{Base~case}}{WR_{Base~case}}
+$$
+
+## Step 5: Enter Column Range and Row of RWQM ID
+
+Enter the range of headers in the Waste Rock input file. For example, if the range of headers in the Excel sheet for FRO is A7:AY7, enter "A:AY" for the column range and "7" for the row range.
+
+## Step 6: Process, Download Data, and Visualization
+
+Press the "Process Data" button. After processing the tables, users can download the results as a .CSV file. A new section will appear in the sidebar where users can select one category to visualize the processed data. For cumulative Waste Rock, the tool provides an area plot, while the rest of the plots are lollipop plots.
 
 
 

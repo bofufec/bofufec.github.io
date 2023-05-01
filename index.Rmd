@@ -20,7 +20,7 @@ If you are a new user, please read the tutorial articles by clicking top right t
 
 ### [EQuals compilation tool (version 2)](https://boff-5045.shinyapps.io/EQuls_tool_version2/)
 
-### [Waste Rock Input File Comparison Tool (version 1.1)](https://boff-5045.shinyapps.io/WR_percentage/)
+### [Waste rock comparison tool (version 1.1)](https://boff-5045.shinyapps.io/WR_percentage/)
 
 ### [Area comparison tool (version 1)](https://boff-5045.shinyapps.io/Area_checking/)
 
