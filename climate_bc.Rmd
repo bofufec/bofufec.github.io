@@ -1,0 +1,28 @@
+---
+title: "Instruction series--How to download"
+author:
+- name: Bofu Li
+  affiliation: "FEC-Water Stewarship Team"
+date: "`r Sys.Date()`"
+output: distill::distill_article
+site: distill::distill_website
+description: |
+  How to use API to batch download the data from ClimateBC
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+The [ClimateBC/NA R package](https://register.climatena.ca/), also known as ClimateNAr, provides users with several useful features. Firstly, it allows users to download spatial climate data for specific climate variables. Secondly, users can create raster stacks for spatial predictions. Lastly, ClimateNAr enables users to inquire about climate variables through web API and desktop API (CMD Line access) for British Columbia (BC), western North America (WNA), and North America (NA) using ClimateBC and ClimateNA.
+
+## Step 1 Registration
+After registering, user can download the package of ClimateNAr. ClimateNAr is not registered in CRAN (web servers that store identical, up-to-date, versions of code and documentation for R).Therefore, we need to copy and paste the packages to R package library. 
+
+## Step 2 Prepare a batch download .csv file
+For batch download, we could designed a .csv file to input the ID and GIS information. The package could match the climate variables via API and generate a .csv file which store the climate data. Please read the related document of ClimateNAr.
+
+## Step 3 Looping for batch download
+
+
+

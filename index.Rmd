@@ -26,3 +26,4 @@ If you are a new user, please read the tutorial articles by clicking top right t
 
 ### [Flow comparison tool (alpha)](https://boff-5045.shinyapps.io/Flow_checking/)
 
+### [GoldSim result processing tool + frequency analysis (alpha)](https://boff-5045.shinyapps.io/Process/)

@@ -88,9 +88,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Water Stewarship Team Tool Hub: Tutorial series--Area Comparison</title>
+  <title>Water Stewarship Team Tool Hub: Instruction series--How to download</title>
 
-  <meta property="description" itemprop="description" content="Area comparison tool tutorials."/>
+  <meta property="description" itemprop="description" content="How to use API to batch download the data from ClimateBC"/>
 
 
   <!--  https://schema.org/Article -->
@@ -99,22 +99,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <meta name="article:author" content="Bofu Li"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Water Stewarship Team Tool Hub: Tutorial series--Area Comparison"/>
+  <meta property="og:title" content="Water Stewarship Team Tool Hub: Instruction series--How to download"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Area comparison tool tutorials."/>
+  <meta property="og:description" content="How to use API to batch download the data from ClimateBC"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Water Stewarship Team Tool Hub"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Water Stewarship Team Tool Hub: Tutorial series--Area Comparison"/>
-  <meta property="twitter:description" content="Area comparison tool tutorials."/>
+  <meta property="twitter:title" content="Water Stewarship Team Tool Hub: Instruction series--How to download"/>
+  <meta property="twitter:description" content="How to use API to batch download the data from ClimateBC"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","output","site","description"]}},"value":[{"type":"character","attributes":{},"value":["Tutorial series--Area Comparison"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["Bofu Li"]},{"type":"character","attributes":{},"value":["FEC-Water Stewarship Team"]}]}]},{"type":"character","attributes":{},"value":["2023-05-03"]},{"type":"character","attributes":{},"value":["distill::distill_article"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["Area comparison tool tutorials."]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","output","site","description"]}},"value":[{"type":"character","attributes":{},"value":["Instruction series--How to download"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["Bofu Li"]},{"type":"character","attributes":{},"value":["FEC-Water Stewarship Team"]}]}]},{"type":"character","attributes":{},"value":["2023-05-03"]},{"type":"character","attributes":{},"value":["distill::distill_article"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["How to use API to batch download the data from ClimateBC"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2098,7 +2098,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Tutorial series--Area Comparison","description":"Area comparison tool tutorials.","authors":[{"author":"Bofu Li","authorURL":"#","affiliation":"FEC-Water Stewarship Team","affiliationURL":"#","orcidID":""}],"publishedDate":"2023-05-03T00:00:00.000-04:00","citationText":"Li, 2023"}
+{"title":"Instruction series--How to download","description":"How to use API to batch download the data from ClimateBC","authors":[{"author":"Bofu Li","authorURL":"#","affiliation":"FEC-Water Stewarship Team","affiliationURL":"#","orcidID":""}],"publishedDate":"2023-05-03T00:00:00.000-04:00","citationText":"Li, 2023"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2133,10 +2133,10 @@ Tutorials
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Tutorial series–Area Comparison</h1>
+<h1>Instruction series–How to download</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Area comparison tool tutorials.</p></p>
+<p><p>How to use API to batch download the data from ClimateBC</p></p>
 </div>
 
 <div class="d-byline">
@@ -2146,23 +2146,12 @@ Tutorials
 </div>
 
 <div class="d-article">
-<h2 id="pre-treatment">Pre-treatment</h2>
-<p>The Waste Rock (WR) comparison tool can automatically detect the ranges of each waste rock category (e.g., cumulative, yearly, etc.).</p>
-<h2 id="step-1-upload-the-base--and-application-case-waste-rock">Step 1: Upload the Base- and Application-Case Waste Rock</h2>
-<p>Upload the Waste Rock input files for the base case and application case.</p>
-<h2 id="step-2-select-watershed">Step 2: Select Watershed</h2>
-<p>Select one of the four watersheds.</p>
-<h2 id="step-3-enter-categories">Step 3: Enter Categories</h2>
-<p>Enter the categories of Waste Rock. Note that users must ensure that the selected categories exist in BOTH Waste Rock input files. If one input file does not contain the selected category, the tool will return an error.</p>
-<h2 id="step-4-enter-percentage">Step 4: Enter Percentage</h2>
-<p>The tool uses percentage to determine whether there is a difference between the base case and application case. If the Waste Rock in the application case was zero while the base case values were non-zero, the percentage would be 100%. The percentage equation is as follows:</p>
-<p><span class="math display">\[
-                 \frac{WR_{Application~base}-WR_{Base~case}}{WR_{Base~case}}
-\]</span></p>
-<h2 id="step-5-enter-column-range-and-row-of-rwqm-id">Step 5: Enter Column Range and Row of RWQM ID</h2>
-<p>Enter the range of headers in the Waste Rock input file. For example, if the range of headers in the Excel sheet for FRO is A7:AY7, enter “A:AY” for the column range and “7” for the row range.</p>
-<h2 id="step-6-process-download-data-and-visualization">Step 6: Process, Download Data, and Visualization</h2>
-<p>Press the “Process Data” button. After processing the tables, users can download the results as a .CSV file. A new section will appear in the sidebar where users can select one category to visualize the processed data. For cumulative Waste Rock, the tool provides an area plot, while the rest of the plots are lollipop plots.</p>
+<p>The <a href="https://register.climatena.ca/">ClimateBC/NA R package</a>, also known as ClimateNAr, provides users with several useful features. Firstly, it allows users to download spatial climate data for specific climate variables. Secondly, users can create raster stacks for spatial predictions. Lastly, ClimateNAr enables users to inquire about climate variables through web API and desktop API (CMD Line access) for British Columbia (BC), western North America (WNA), and North America (NA) using ClimateBC and ClimateNA.</p>
+<h2 id="step-1-registration">Step 1 Registration</h2>
+<p>After registering, user can download the package of ClimateNAr. ClimateNAr is not registered in CRAN (web servers that store identical, up-to-date, versions of code and documentation for R).Therefore, we need to copy and paste the packages to R package library.</p>
+<h2 id="step-2-prepare-a-batch-download-.csv-file">Step 2 Prepare a batch download .csv file</h2>
+<p>For batch download, we could designed a .csv file to input the ID and GIS information. The package could match the climate variables via API and generate a .csv file which store the climate data. Please read the related document of ClimateNAr.</p>
+<h2 id="step-3-looping-for-batch-download">Step 3 Looping for batch download</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2171,15 +2160,6 @@ Tutorials
 <div class="d-appendix">
 </div>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
