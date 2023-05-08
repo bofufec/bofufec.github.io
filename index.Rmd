@@ -1,7 +1,7 @@
 ---
 title: "Online tools"
 description: |
-  We provide the waste rock & areas comparison and EQuals compilation tools. Now, the website is still in buidling. More data tools (e.g., flows comparison, Python GUI control for GoldSim) and related tutorials are coming!
+  We provide the waste rock & areas comparison and EQuals compilation tools. Now, the website is still in buidling. More data tools (e.g., Python automate control for GoldSim output) and related tutorials are coming!
 site: distill::distill_website
 ---
 
@@ -15,6 +15,7 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/publish_website.html#github-pages
 
 ```
+## Tools develped by Water Stewarship Team 
 
 If you are a new user, please read the tutorial articles by clicking top right tab of tutorials.
 
@@ -27,3 +28,9 @@ If you are a new user, please read the tutorial articles by clicking top right t
 ### [Flow comparison tool (alpha)](https://boff-5045.shinyapps.io/Flow_checking/)
 
 ### [GoldSim result processing tool + frequency analysis (alpha)](https://boff-5045.shinyapps.io/Process/)
+
+## Links about climate and flow data tools 
+
+#### [ClimateBC api package](https://register.climatena.ca/)
+#### [Real-time national 'hydrometric' data from Water Survey of Canada data sources ](https://github.com/ropensci/tidyhydat)
+#### [Historical weather data from Environment and Climate Change Canada (ECCC)](https://ropensci.org/blog/2018/03/06/weathercan/#:~:text=weathercan%20is%20an%20R%20package,get%20everything%20in%20one%20dataset.)
