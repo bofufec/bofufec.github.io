@@ -33,4 +33,4 @@ If you are a new user, please read the tutorial articles by clicking top right t
 
 #### [ClimateBC api package](https://register.climatena.ca/)
 #### [Real-time national 'hydrometric' data from Water Survey of Canada data sources ](https://github.com/ropensci/tidyhydat)
-#### [Historical weather data from Environment and Climate Change Canada (ECCC)](https://ropensci.org/blog/2018/03/06/weathercan/#:~:text=weathercan%20is%20an%20R%20package,get%20everything%20in%20one%20dataset.)
+#### [Historical weather data from Environment and Climate Change Canada (ECCC)](https://github.com/ropensci/weathercan)
