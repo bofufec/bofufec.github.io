@@ -19,6 +19,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 If you are a new user, please read the tutorial articles by clicking top right tab of tutorials.
 
+### [Water quality autoscreen tool - light version (in developing)](https://boff-5045.shinyapps.io/BC_WQGS/)
+
 ### [EQuals compilation tool (version 2)](https://boff-5045.shinyapps.io/EQuls_tool_version2/)
 
 ### [Waste rock comparison tool (version 1.1)](https://boff-5045.shinyapps.io/WR_percentage/)
@@ -28,6 +30,8 @@ If you are a new user, please read the tutorial articles by clicking top right t
 ### [Flow comparison tool (alpha)](https://boff-5045.shinyapps.io/Flow_checking/)
 
 ### [GoldSim result processing tool + frequency analysis (alpha)](https://boff-5045.shinyapps.io/Process/)
+
+### [Ni Calculation](https://boff-5045.shinyapps.io/Ni_BM/_w_7a097ecc/)
 
 ## Links about climate and flow data tools 
 
