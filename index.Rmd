@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 If you are a new user, please read the tutorial articles by clicking top right tab of tutorials.
 
-### [Water quality autoscreen tool - light version (in developing)](https://boff-5045.shinyapps.io/BC_WQGS/)
+### [Water quality autoscreen tool - light version (in developing)](https://boff-5045.shinyapps.io/BackUP_WQS/)
 
 ### [EQuals compilation tool (version 2)](https://boff-5045.shinyapps.io/EQuls_tool_version2/)
 
