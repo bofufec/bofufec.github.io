@@ -19,6 +19,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 If you are a new user, please read the tutorial articles by clicking top right tab of tutorials.
 
+### [BC Water Quality guideline csv update checker (version 1.0.0)](https://boff-5045.shinyapps.io/WQGL_update_checking/)
+
 ### [Water quality autoscreen tool - light version (in developing)](https://boff-5045.shinyapps.io/BackUP_WQS/)
 
 ### [EQuals compilation tool (version 2)](https://boff-5045.shinyapps.io/EQuls_tool_version2/)
