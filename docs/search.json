@@ -69,8 +69,8 @@
       "title": "Online tools",
       "description": "We provide the waste rock & areas comparison and EQuals compilation tools. Now, the website is still in buidling. More data tools (e.g., Python automate control for GoldSim output) and related tutorials are coming!\n",
       "author": [],
-      "contents": "\r\nTools develped by Water Stewarship Team\r\nIf you are a new user, please read the tutorial articles by clicking top right tab of tutorials.\r\nWater quality autoscreen tool - light version (in developing)\r\nEQuals compilation tool (version 2)\r\nWaste rock comparison tool (version 1.1)\r\nArea comparison tool (version 1)\r\nFlow comparison tool (alpha)\r\nGoldSim result processing tool + frequency analysis (alpha)\r\nNi Calculation\r\nLinks about climate and flow data tools\r\nClimateBC api package\r\nReal-time national ‘hydrometric’ data from Water Survey of Canada data sources\r\nHistorical weather data from Environment and Climate Change Canada (ECCC)\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-09-23T01:02:46-03:00"
+      "contents": "\r\nTools develped by Water Stewarship Team\r\nIf you are a new user, please read the tutorial articles by clicking top right tab of tutorials.\r\nBC Water Quality guideline csv update checker (version 1.0.0)\r\nWater quality autoscreen tool - light version (in developing)\r\nEQuals compilation tool (version 2)\r\nWaste rock comparison tool (version 1.1)\r\nArea comparison tool (version 1)\r\nFlow comparison tool (alpha)\r\nGoldSim result processing tool + frequency analysis (alpha)\r\nNi Calculation\r\nLinks about climate and flow data tools\r\nClimateBC api package\r\nReal-time national ‘hydrometric’ data from Water Survey of Canada data sources\r\nHistorical weather data from Environment and Climate Change Canada (ECCC)\r\n\r\n\r\n\r\n",
+      "last_modified": "2024-01-15T12:55:12-04:00"
     },
     {
       "path": "WR.html",
